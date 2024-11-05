@@ -1,0 +1,87 @@
+.login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(39,11,136,0.6);
+    .card{
+
+        width: 50%;
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 500px;
+
+        .left{
+
+            flex: 1;
+            background: linear-gradient(rgba(39,11,96,0.5), rgba(39,11,96,0.5)) ,url("https://images.pexels.com/photos/9746/people-mother-family-father.jpg?auto=compress&cs=tinysrgb&w=600") center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            padding: 50px;
+            gap: 30px;
+
+            h1{
+                font-size: 100px;
+                line-height: 100px;
+                margin: 15px;
+            }
+            p{
+                font-weight: 400;
+            }
+            // span{}
+            button{
+                width: 50%;
+                padding: 10px;
+                font-weight: bold;
+
+                Link{
+                    text-decoration: none;
+                }
+                
+            }
+
+        }
+
+        .right{
+
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            gap: 50px;
+            
+
+            h1{
+                font-size: 60px;
+            }
+
+            form{
+
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                
+
+                
+                input{
+                    border: none;
+                    border-bottom: 1px solid black;
+                }
+                button{
+
+                    width: 50%;
+                    background-color: rebeccapurple;
+                    padding: 10px;
+                    color: white;
+                }
+
+            }
+
+        }
+
+    }
+
+}
